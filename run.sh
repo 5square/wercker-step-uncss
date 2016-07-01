@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y npm
+apt-get install -y nodejs
 
 npm install -g uncss
 
