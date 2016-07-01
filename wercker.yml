@@ -1,6 +1,17 @@
 box: wercker/default
 build:
+  box: nodesource/node:trusty
   steps:
     #- validate-wercker-step
-    - janat5square/uncss:
-        url: http://zend.com
+    #- janat5square/uncss:
+    #    url: http://zend.com
+    - npm-install:
+        package: uncss
+    - script:
+        name: pack and minify css
+        code: |-
+          ls -la
+          uncss http://www.google.de/ > out.css
+          ls -la
+          cat out.css
+
