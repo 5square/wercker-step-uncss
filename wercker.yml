@@ -1,6 +1,6 @@
 box: wercker/default
 build:
   steps:
-    #- validate-wercker-step
-    - janat5square/uncss:
-        url: http://zend.com
+    - validate-wercker-step
+    #- janat5square/uncss:
+    #    url: http://zend.com
