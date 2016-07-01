@@ -2,5 +2,5 @@ box: wercker/default
 build:
   steps:
     #- validate-wercker-step
-    - uncss:
-        url: http://zend.com
+    #- uncss:
+    #    url: http://zend.com
