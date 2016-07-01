@@ -2,4 +2,4 @@ box: wercker/default
 build:
   steps:
     - uncss:
-      url: http://zend.com 
+        url: http://zend.com 
