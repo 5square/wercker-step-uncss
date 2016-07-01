@@ -1,0 +1,10 @@
+name: uncss 
+version: 0.0.1
+description: Creates stylesheet file of used Stylesheets of a given url 
+keywords:
+  - css
+  - optimize
+properties:
+  url:
+    type: string
+    required: true
